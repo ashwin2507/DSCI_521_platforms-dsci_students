@@ -1,0 +1,52 @@
+---
+title: "Presentation by Ashwin Babu"
+subtitle: "test slides for DSCI 521"  
+author: 
+  - "Ashwin Babu"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=10, fig.height=1.5, fig.retina=4,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+# Sample code for multiplication
+
+```{r}
+x<-2
+y<-3
+print(x * y)
+```
+---
+
+# Slide 3 
+Sample code for anonymous function in R
+
+
+```{r}
+squares <- (function(x) x^2)(c(1,2,3,4,5,6,7,8,9,10))
+squares
+```
+---
+# Slide 4 
+This is the end of slide presentation!! Successfully creates four slides.
+
+
+
+
